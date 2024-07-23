@@ -9,7 +9,7 @@ import json
 import plotly.express as px
 import folium
 from streamlit_folium import st_folium
-from openai import openai
+import openai
 
 # Set page configuration
 st.set_page_config(page_title="BTC Market Analysis Dashboard", page_icon=":chart_with_upwards_trend:", layout="wide")
