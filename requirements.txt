@@ -1,9 +1,10 @@
-### requirements.txt
-
-```plaintext
 streamlit
 yfinance
 pandas
 requests
 beautifulsoup4
 websocket-client
+plotly
+folium
+streamlit-folium
+openai
