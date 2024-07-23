@@ -1,0 +1,56 @@
+# BTC Market Analysis Dashboard
+
+A comprehensive Streamlit app for BTC market analysis, integrating data from luminex.io/runes/alpha, api.ordinals.com, and mempool.space.
+
+## Features
+
+- **Real-time Price Tracker**: Display current BTC prices from different exchanges.
+- **Historical Data Visualization**: Show charts and graphs of BTC price trends over various time frames.
+- **Technical Analysis Tools**: Include indicators like moving averages.
+- **News Feed**: Integrate a news section with the latest updates from reliable sources.
+- **Portfolio Tracker**: Track your BTC, rune, and ordinal holdings.
+- **Runes Overview**: Display information about BTC runes.
+- **Ordinals Data**: Provide insights and analytics on BTC ordinals.
+- **Mempool Data**: Real-time data from mempool.space.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/btc-market-analysis-dashboard.git
+cd btc-market-analysis-dashboard
+2. Create a virtual environment and activate it:
+'''
+bash:
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+'''
+3. Install the required dependencies:
+'''
+bash:
+pip install -r requirements.txt
+'''
+4. Run the Streamlit app:
+'''
+bash:
+streamlit run app.py
+'''
+Configuration
+Ensure you have a valid API key for the news feed from CryptoPanic. Replace API_KEY in the app code with your actual API key.
+
+Requirements
+Python 3.7+
+See requirements.txt for a full list of dependencies.
+Usage
+After running the app, you will be able to:
+
+View real-time BTC price.
+Analyze historical BTC data with interactive charts.
+Use technical analysis tools.
+Stay updated with the latest BTC news.
+Track your cryptocurrency portfolio, including BTC, runes, and ordinals.
+View and analyze BTC runes and ordinals.
+Monitor real-time mempool data.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
