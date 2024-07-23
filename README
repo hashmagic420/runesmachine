@@ -52,5 +52,19 @@ Stay updated with the latest BTC news.
 Track your cryptocurrency portfolio, including BTC, runes, and ordinals.
 View and analyze BTC runes and ordinals.
 Monitor real-time mempool data.
+# BTC Market Analysis Dashboard
+
+A comprehensive Streamlit app for BTC market analysis, integrating data from luminex.io/runes/alpha, api.ordinals.com, and mempool.space.
+
+## Features
+
+- **Real-time Price Tracker**: Display current BTC prices from different exchanges.
+- **Historical Data Visualization**: Show charts and graphs of BTC price trends over various time frames.
+- **Technical Analysis Tools**: Include indicators like moving averages.
+- **News Feed**: Integrate a news section with the latest updates from reliable sources.
+- **Portfolio Tracker**: Track your BTC, rune, and ordinal holdings.
+- **Runes Overview**: Display information about BTC runes.
+- **Ordinals Data**: Provide insights and analytics on BTC ordinals.
+- **Mempool Data**: Real-time data from mempool.space.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
