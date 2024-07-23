@@ -1,0 +1,9 @@
+### requirements.txt
+
+```plaintext
+streamlit
+yfinance
+pandas
+requests
+beautifulsoup4
+websocket-client
